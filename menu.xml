@@ -1,0 +1,90 @@
+<!--XML Declaration-->
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--Menu-->
+<menu>
+    <MenuCategory name="hot">
+        <product>
+            <list>Soup of the day</list>
+            <price>5.00</price>
+        </product>
+        <product>
+            <listing>Chicken wings</listing>
+            <price>9.50</price>
+        </product>
+        <product sauce="true">
+            <listing>Barbecue</listing>
+            <price>4.20</price>
+        </product>
+    </MenuCategory>
+
+
+    <!--Salad Menu-->
+    <MenuCategory name="Salads">
+        <product>
+            <listing>Chicken Caeser Salads</listing>
+            <price>13.95</price>
+        </product>
+        <product>
+            <listing>Carvery Salads</listing>
+            <price>9.65</price>
+        </product>
+        <product sauce="true">
+            <listing>Tomato</listing>
+            <price>3.25</price>
+        </product>
+    </MenuCategory>
+
+
+
+    <!--Sandwiches-->
+    <MenuCategory name="Sandwiches">
+        <product>
+            <listing>Ham &amp; cheese</listing>
+            <price>8.50</price>
+        </product>
+        <product>
+            <listing>Special</listing>
+            <price>11.50</price>
+        </product>
+        <product sauce="true">
+            <listing>Mustard</listing>
+            <price>4.10</price>
+        </product>
+    </MenuCategory>
+
+
+
+    <!--Main-->
+    <MenuCategory name="Lunch">
+        <product>
+            <listing>Beef Burger</listing>
+            <price>15.95</price>
+        </product>
+        <product>
+            <listing>Chicken Burger</listing>
+            <price>2.70</price>
+        </product>
+        <product sauce="true">
+            <listing>White special sauce</listing>
+            <price>6.00</price>
+        </product>
+    </MenuCategory>
+
+
+    <!--Drinks-->
+    <MenuCategory name="Drinks">
+        <product>
+            <listing>Orange juice</listing>
+            <price>6.50</price>
+        </product>
+        <product>
+            <listing>Avocado</listing>
+            <price>6.50</price>
+        </product>
+        <product>
+            <listing>Espresso</listing>
+            <price>4.50</price>
+        </product>
+    </MenuCategory>
+</menu>
